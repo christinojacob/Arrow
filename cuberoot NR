@@ -1,0 +1,9 @@
+n=input('Enter a number ')
+x=0.3*n
+epsilon=0.000000002
+while(abs((x*x*x)-n)>epsilon):
+	f=(x**3)-n
+	df=3*(x**2)
+	x=x-(f/df)
+
+print 'Cube root: ',xi
